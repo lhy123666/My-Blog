@@ -1,0 +1,54 @@
+.left{
+    width: 30%;
+    height: 100%;
+/*    border: 1px solid black;*/
+    float: left;
+    padding: 30px 10px;
+}
+.right{
+    width: 62%;
+    height: 100%;
+   /*border: 1px solid black;*/
+    float: left;
+    padding: 0 30px;
+}
+.left span{
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    margin: 30px 110px;
+    border-radius: 50%;
+    background: url("../images/月球.jpg")no-repeat;
+    background-size: 100%;
+    box-shadow: 3px 3px 5px grey;
+}
+.left h1{
+    text-align: center;
+    font: 50px "微软雅黑";
+    margin-top:50px ;
+}
+.right table{
+    width: 100%;
+    height: auto;
+}
+.right table tr td{
+    width: 40%;
+    height: 50px;
+    font: 17px "微软雅黑";
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    line-height: 100px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+}
+.box a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
